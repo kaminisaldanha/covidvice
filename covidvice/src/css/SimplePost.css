@@ -1,0 +1,70 @@
+.categoryTitle {
+  border-radius: 25px;
+  font-size: xx-small;
+  font-weight: 500;
+  padding: 4px;
+  width: fit-content;
+}
+.categoryBox {
+  padding: 5px;
+  text-align: left;
+}
+.creatorInfo {
+  display: inline-flex;
+  font-size: 0.8em;
+  text-align: left;
+  width: 100%;
+}
+.createdTime {
+  margin: 5px;
+}
+.creatorInfo .creatorName {
+  margin: 0.5em;
+}
+.createdTime {
+  margin: 5px;
+}
+.simplepostContainer {
+  border: 1px solid #b3b3b3;
+  border-radius: 0.5em;
+  margin: 1em;
+  /* width: 60em; */
+  padding: 5px;
+}
+.simplepostContainer {
+  cursor: pointer;
+}
+.postContent {
+  font-size: 15px;
+  padding-left: 10px;
+  text-align: left;
+}
+.image {
+  width: 6em;
+  height: 7em;
+}
+.postInteractions {
+  display: inline-flex;
+  font-size: xx-small;
+  list-style: none;
+}
+.views {
+  padding: 5px;
+}
+.likes {
+  padding: 5px;
+}
+.comments {
+  padding: 5px;
+}
+.stats {
+  display: inline-flex;
+  text-align: left;
+  width: 100%;
+}
+.stats a {
+  text-decoration: none;
+}
+.statIcon {
+  margin-right: 1em;
+}

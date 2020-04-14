@@ -1,0 +1,44 @@
+.navbar {
+    border-right: 1px solid #b3b3b3;
+    width: 14em;
+    height: 100vh;
+    position:fixed;
+}
+.row {
+    display: flex;
+}
+.createBtn {
+    border: 1px solid #b3b3b3;
+    width: 70%;
+    border-radius: .25em;
+    height: 2em;
+    margin-top: 1em;
+}
+.createBtn:hover {
+    cursor: pointer;
+}
+.createBtn a {
+    text-decoration: none;
+}
+.categoryList {
+    list-style: none;
+    margin-left: 2.5em;
+    padding: 1em;
+    text-align: left;
+    border-left: 1px solid block;
+    border-left: .05em solid #b3b3b3;
+}
+.categoryList a {
+    text-decoration: none;
+    color: #525252;
+    font-weight: lighter;
+    font-size: .9em;
+}
+.categoryList a:active {
+    text-decoration: underline;
+    font-weight: normal;
+}
+.postList {
+    list-style: none;
+    width: 60em;
+}

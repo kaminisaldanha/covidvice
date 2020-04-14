@@ -1,0 +1,58 @@
+@media all and (min-width: 480px) {
+	.Login {
+		padding: 60px;
+		text-align: left;
+	}
+	.Login form {
+		margin: 0 auto;
+		max-width: 320px;
+	}
+	.form-group {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex: 0 0 auto;
+		flex: 0 0 auto;
+		-ms-flex-flow: row wrap;
+		flex-flow: row wrap;
+		-ms-flex-align: center;
+		align-items: center;
+		margin-bottom: 0
+	}
+}
+
+.Login {
+	padding: 40px;
+}
+
+.error{
+	color: red;
+	font-size: 12px;
+}
+
+
+.login_signup_input{
+	/* margin: 9px; */
+	height: 30px;
+	width: 100vw;
+	border-radius: 5px;
+	padding-left: 5px;
+
+}
+
+label{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+}
+
+
+.submit_button{
+	margin-top: 15px;
+	height: 30px;
+	width: 90px;
+	border-radius: 6px;
+	background-color: skyblue;
+	color: white;
+	font-size: 15px;
+}
+

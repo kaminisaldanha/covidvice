@@ -1,0 +1,33 @@
+.formWrapper {
+    border: 1px solid #b3b3b3;
+    border-radius: .5em;
+    margin: 0 auto;
+    margin-top: 7em;
+    padding: 2em;
+    text-align: left;
+    width: 60%;
+}
+.formWrapper > h1 {
+    margin-left: .25em;
+}
+.formSelect {
+    margin: 1em;
+    border-radius: 1em;
+}
+.formInput {
+    width: 90%;
+    margin: 1em;
+    border-radius: .5em;
+    min-height: 2em;
+    padding: 0 1em 0 1em;
+}
+.formWrapper > div > textarea {
+    min-height: 15em;
+    padding: 1em 1em 0 1em;
+}
+.formSubmit {
+    margin: 1em;
+    border-radius: .5em;
+    padding: .25em 1em .25em 1em;
+}
+

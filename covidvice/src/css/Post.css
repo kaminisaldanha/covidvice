@@ -1,0 +1,37 @@
+.postContainer {
+    width: 60em;
+    margin: 0 auto;
+}
+.postContainerSub {
+    border: 1px solid #b3b3b3;
+    border-radius: 0.5em;
+    margin: 1em;
+    /* width: 60em; */
+    padding: 5px;
+}
+
+.commentSection {
+    
+}
+.addComment {
+    text-align: left;
+    background-color: whitesmoke;
+    border-radius: .2em;
+    margin: 1em;
+    padding-top:.2em;
+}
+.addComment .formSubmit{
+    margin-top: 0;
+}
+.addComment textarea {
+    padding-top: .5em;
+}
+.commentList {
+    list-style-type: none;
+    padding: 0;
+}
+.commentSection h3 {
+    text-align: left;
+    margin:1em;
+    color: #6d6d6d;
+}

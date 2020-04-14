@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+.appBody {
+  margin-top: 6em;
+}
+.content { 
+  padding-left: 135px;
+  padding-top: 10px;
+  margin: 0 auto;
+  margin-left: 14em;
+}
+
+.header {
+  border-bottom: 1px solid #b3b3b3;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 5em;
+    background: whitesmoke;
+}
+.headerContent {
+  display: inline-flex;
+  width: 100%;
+}
+.header h1 {
+  width: 7em;
+  margin: .3em 2em 0 0;
+}
+.header h1 > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+.searchbar {
+  display: flex;
+    align-items: center;
+    height: 5em;
+}
+.searchInput {
+    border-radius: 4px;
+    width: 30em;
+    height: 1.5em;
+    padding-left: 1em;
+}
+*:focus {
+  outline: none
+}
+input {
+  border: 1px solid #b3b3b3;
+}
+.account {
+  width: 4em;
+  height: 4em;
+  border-radius: 4em;
+  border: 1px solid #b3b3b3;
+  line-height: 4em;
+  margin-left: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
